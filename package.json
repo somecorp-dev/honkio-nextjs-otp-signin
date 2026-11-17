@@ -1,0 +1,32 @@
+{
+  "name": "honkio-nextjs-otp-signin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phone number sign-in for Next.js with one-time codes from HonkIO Verify.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@honkio/node": "^0.12.0",
+    "jose": "^6.2.17",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.0"
+  }
+}
